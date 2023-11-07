@@ -1,0 +1,45 @@
+.cryptocurrencies-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title-box {
+  display: flex;
+  align-items: center;
+}
+.currency-logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.currency-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.currencies-box {
+  display: flex;
+  align-items: center;
+}
+.currency-value {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  width: 52px;
+  margin-left: 8px;
+}
+@media (min-width: 576px) {
+  .currency-logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+  }
+  .currency-name {
+    font-size: 16px;
+  }
+  .currency-value {
+    font-size: 16px;
+    width: 72px;
+    margin-left: 48px;
+  }
+}
